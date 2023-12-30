@@ -981,18 +981,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-                    InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-                ],[
-                    InlineKeyboardButton('♚ Bᴏᴛ Oᴡɴᴇʀ', callback_data="https://t.me/its_Kd7"),
-                    InlineKeyboardButton('⌬ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/+PN59dOdJNNAxYzQ1')
-                ],[
-                    InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='https://t.me/MrFazni'),
-                    InlineKeyboardButton('Iɴʟɪɴᴇ Sᴇᴀʀᴄʜ ☌', switch_inline_query_current_chat='')
-                ],[
-                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url='https://t.me/TamilRockerz_FZN')
-                  ]]
-        
+            InlineKeyboardButton('⇋ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇌', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+        ], [
+            InlineKeyboardButton('🫅 ᴏᴡɴᴇʀ', url='https://t.me/King_officialX'),
+            InlineKeyboardButton('💡 ɢʀᴏᴜᴘ', url='https://t.me/+xf7QiExhPXk5NTUx')
+        ], [
+            InlineKeyboardButton('💠 ʜᴇʟᴘ 💠', callback_data='help'),
+            InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')
+        ], [
+            InlineKeyboardButton('🔰 ɴᴇsᴀᴍᴀɴɪ ᴏғғɪᴄɪᴀʟ 🔰', url='https://t.me/Nesamani_Linkz')
+        ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
             query.message.chat.id, 
@@ -1068,9 +1066,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/+PN59dOdJNNAxYzQ1'),
-            InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ', callback_data='https://t.me/MrFazni')
-        ],[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
         ]]
