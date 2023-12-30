@@ -46,7 +46,7 @@ async def start(client, message):
             InlineKeyboardButton('⇋ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇌', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('🫅 ᴏᴡɴᴇʀ', url='https://t.me/King_officialX'),
-            InlineKeyboardButton('💡 ɢʀᴏᴜᴘ', url='https://t.me/+xf7QiExhPXk5NTUx')
+            InlineKeyboardButton('💡 ɢʀᴏᴜᴘ', url='https://t.me/+BBfEyXiykVQzOGU1')
         ], [
             InlineKeyboardButton('💠 ʜᴇʟᴘ 💠', callback_data='help'),
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')
@@ -94,7 +94,7 @@ async def start(client, message):
             InlineKeyboardButton('⇋ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇌', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('🫅 ᴏᴡɴᴇʀ', url='https://t.me/King_officialX'),
-            InlineKeyboardButton('💡 ɢʀᴏᴜᴘ', url='https://t.me/+xf7QiExhPXk5NTUx')
+            InlineKeyboardButton('💡 ɢʀᴏᴜᴘ', url='https://t.me/+BBfEyXiykVQzOGU1')
         ], [
             InlineKeyboardButton('💠 ʜᴇʟᴘ 💠', callback_data='help'),
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')
