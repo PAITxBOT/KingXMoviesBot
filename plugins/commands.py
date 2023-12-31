@@ -45,7 +45,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⇋ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇌', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🫅 ᴏᴡɴᴇʀ', url='https://t.me/King_officialX'),
+            InlineKeyboardButton('🫅 ᴏᴡɴᴇʀ', url='https://t.me/KingXcontact_bot'),
             InlineKeyboardButton('💡 ɢʀᴏᴜᴘ', url='https://t.me/+BBfEyXiykVQzOGU1')
         ], [
             InlineKeyboardButton('💠 ʜᴇʟᴘ 💠', callback_data='help'),
@@ -93,7 +93,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⇋ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇌', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🫅 ᴏᴡɴᴇʀ', url='https://t.me/King_officialX'),
+            InlineKeyboardButton('🫅 ᴏᴡɴᴇʀ', url='https://t.me/KingXcontact_bot'),
             InlineKeyboardButton('💡 ɢʀᴏᴜᴘ', url='https://t.me/+BBfEyXiykVQzOGU1')
         ], [
             InlineKeyboardButton('💠 ʜᴇʟᴘ 💠', callback_data='help'),
